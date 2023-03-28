@@ -5,6 +5,7 @@
 #include <vector>
 #include "product.h"
 #include "item.h"
+#include "discount.h"
 
 using std::vector;
 
