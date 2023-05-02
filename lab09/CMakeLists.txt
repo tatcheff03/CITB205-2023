@@ -24,7 +24,7 @@ target_link_libraries(hello PRIVATE
 
 # Resources:
 set(hello_resource_files
-    "images/hello.png"
+    "images/rickroll.jpg"
 )
 
 qt_add_resources(hello "hello"

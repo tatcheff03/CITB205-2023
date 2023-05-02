@@ -4,18 +4,18 @@
 
 Window::Window()
 {
-    QIcon icon(":/images/hello.png");
+    QIcon icon(":/images/rickroll.jpg");
     setWindowIcon(icon);
-    button = new QPushButton(tr("Say Hi"));
+    button = new QPushButton(tr(" surprise "));
     connect(button, &QPushButton::clicked, this, &Window::sayHi);
     greeter = new Greeter();
     QVBoxLayout *mainLayout = new QVBoxLayout;
     mainLayout->addWidget(button);
     mainLayout->addWidget(greeter);
     setLayout(mainLayout);
-    setWindowTitle(tr("Hello World"));
+    setWindowTitle(tr(" say hello "));
 }
 
 void Window::sayHi() {
-    greeter->setGreeting(tr("Hello!"));
+    greeter->setGreeting(tr("Kurva!"));
 }

@@ -2,8 +2,8 @@
 #include <QPainter>
 #include <QPaintEvent>
 
-Greeter::Greeter() : QWidget(), font("Times", 20, QFont::Bold) {
-    setFixedSize(240, 60);
+Greeter::Greeter() : QWidget(), font("Sans Serif", 50, QFont::Bold) {
+    setFixedSize(300, 100);
 }
 
 void Greeter::setGreeting(const QString &text)
@@ -17,7 +17,7 @@ void Greeter::paintEvent(QPaintEvent * /* event */)
     QPainter painter(this);
     painter.setBrush(palette().light().color());
     painter.drawRect(rect());
-    painter.setPen(QPen(Qt::red));
+    painter.setPen(QPen(Qt::cyan));
     painter.setFont(font);
     painter.drawText(rect(), Qt::AlignCenter, greeting);
 }
