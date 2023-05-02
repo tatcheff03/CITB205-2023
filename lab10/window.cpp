@@ -2,5 +2,5 @@
 
 MainWindow::MainWindow()
 {
-setFixedSize(480,320);
+    setFixedSize(480, 320);
 }
