@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/atatc/Documents/NBU/Object Oriented C++/NBU_Object-oriented-C--/CITB205-2023-1/lab09",
-      "program": "c:/Users/atatc/Documents/NBU/Object Oriented C++/NBU_Object-oriented-C--/CITB205-2023-1/lab09/build/Debug/outDebug",
+      "cwd": "c:/Users/atatc/Documents/NBU/Object Oriented C++/NBU_Object-oriented-C--/CITB205-2023-1/lab10",
+      "program": "c:/Users/atatc/Documents/NBU/Object Oriented C++/NBU_Object-oriented-C--/CITB205-2023-1/lab10/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

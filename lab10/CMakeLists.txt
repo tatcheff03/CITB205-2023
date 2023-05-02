@@ -6,7 +6,7 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
 qt_standard_project_setup()
 
-qt_add_executable(lab10 main.cpp)
+qt_add_executable(lab10 main.cpp window.cpp) 
 
 set_target_properties(lab10 PROPERTIES 
 WIN32_EXECUTABLE TRUE
