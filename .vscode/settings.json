@@ -49,7 +49,8 @@
     "typeinfo": "cpp",
     "qwidget": "cpp",
     "qtwidgets": "cpp",
-    "qapplication": "cpp"
+    "qapplication": "cpp",
+    "qkeyevent": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
